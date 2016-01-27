@@ -9,7 +9,7 @@ public class Background {
 		speedX = 0;
 	}
 	
-	public void update() {
+	public void update() {		
 		bgX += speedX;
 		
 		if (bgX <= -2160) {
@@ -37,8 +37,8 @@ public class Background {
 		this.bgY = bgY;
 	}
 
-	public void setSpeedX(int speedX) {
-		this.speedX = speedX;
+	public void setSpeedX(int speedX) {		
+		this.speedX = speedX;		
 	}
 	
 

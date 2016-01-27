@@ -6,5 +6,12 @@ public class Penguin extends Enemy {
 		setCenterX(centerX);
 		setCenterY(centerY);
 	}
+	
+	@Override
+	public void update() {
+		centerX += speedX;
+		speedX = bg.getSpeedX()*5;
+		// Do nothing, because penguins are friendly
+	}
 
 }
